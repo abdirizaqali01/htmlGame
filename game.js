@@ -479,7 +479,7 @@ class BossFight extends Phaser.Scene {
 
       this.tweens.add({
         targets: this.sword,
-        x: boss.x, // Assuming boss is the boss character
+        x: boss.x,
         duration: 500,
         onComplete: () => {
           this.sword.setVisible(false);
