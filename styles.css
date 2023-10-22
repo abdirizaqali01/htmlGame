@@ -1,0 +1,8 @@
+body {
+  background-image: url('assets/bg.jpg'); /* Replace with your image file path */
+  background-size: cover; /* Adjust the size as needed */
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Prevent scrolling */
+  margin: 0; /* Remove default margins */
+  overflow: hidden; /* Hide overflow content */
+}
